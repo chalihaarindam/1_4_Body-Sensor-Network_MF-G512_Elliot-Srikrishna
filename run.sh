@@ -43,6 +43,7 @@ gnome-terminal --working-directory=${bsn}/configurations/target_system -e 'rosla
 gnome-terminal --working-directory=${bsn}/configurations/target_system -e 'roslaunch --pid=/var/tmp/g3t1_4.pid g3t1_4.launch' & sleep 2s
 gnome-terminal --working-directory=${bsn}/configurations/target_system -e 'roslaunch --pid=/var/tmp/g3t1_5.pid g3t1_5.launch' & sleep 2s
 gnome-terminal --working-directory=${bsn}/configurations/target_system -e 'roslaunch --pid=/var/tmp/g3t1_6.pid g3t1_6.launch' & sleep 2s
+gnome-terminal --working-directory=${bsn}/configurations/external -e 'roslaunch --pid=/var/tmp/g3t1_6.pid listener.launch' & sleep 2s
 
 ################# SIMULATION #################
 gnome-terminal --working-directory=${bsn}/configurations/simulation -e 'roslaunch --pid=/var/tmp/injector.pid injector.launch' & sleep ${exec_time}s
