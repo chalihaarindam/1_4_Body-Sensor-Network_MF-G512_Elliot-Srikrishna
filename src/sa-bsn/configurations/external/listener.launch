@@ -1,0 +1,7 @@
+<launch>
+
+  <node name="listener" pkg="external" type="listener.py" args="-"/>
+  <node name="server" pkg="external" type="server.py" args="5000"/>
+
+   <param name="frequency" value="1000" />
+</launch>
