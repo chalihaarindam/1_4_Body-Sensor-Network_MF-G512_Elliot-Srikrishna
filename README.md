@@ -148,11 +148,8 @@ source ~/.bashrc
 
 Main Authors
 
-* [**Ricardo Caldas**](https://rdinizcal.github.io/)
-* [**Gabriel Levi**](https://github.com/gabrielevi10)
-* [**Léo Moraes**](https://github.com/leooleo)  
-* [**Eric B. Gil**](https://github.com/ericbg27)
-* [**Samuel Couto**](https://github.com/SCouto97)
+* [**Arindam Chaliha**]((https://github.com/chalihaarindam))
+  
 
 Adviser: [**Genaína N. Rodrigues**](https://genaina.github.io/)
 
