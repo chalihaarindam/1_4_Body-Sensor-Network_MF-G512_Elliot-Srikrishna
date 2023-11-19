@@ -4,6 +4,12 @@ RUN apt update &&\
     apt install -y python-rosdep build-essential git tmux python-pip python-virtualenv python-rospkg &&\
     sudo rosdep init && rosdep update
 
+# Install Flask
+RUN pip3 install flask
+
+# Install ROS packages
+RUN sudo apt-get install -y ros-melodic-rospy
+
 COPY .devcontainer/.tmux.conf /root/.tmux.conf
 COPY .devcontainer/additional_bashrc.sh /root/.additional_bashrc
 
